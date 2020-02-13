@@ -24,5 +24,8 @@ def printer(attendees)
     puts "#{item}"
   end
   array3 = assign_rooms(attendees)
+  array3.each do |item2|
+    puts "#{item2}"
+  end
   
 end
